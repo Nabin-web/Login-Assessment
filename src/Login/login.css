@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../../public/Fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+.mains {
+  font-family: "SF Pro Display";
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 157px auto;
+}
+
+.heading {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.phone {
+  color: dimgray;
+}
+
+.Login {
+  width: 466px;
+}
+
+.input-login {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbcbcb;
+  font-size: 14px;
+}
+
+.input-login:focus {
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.forgot-password {
+  float: right;
+  text-decoration: none;
+}
+
+.btnSubmit {
+  width: 467px;
+  border-radius: 5px;
+  background: #f50100;
+  border: none;
+}
+
+.btnSubmit:hover {
+  background: #f50100;
+  border: none;
+}
+
+.btnSubmit:focus {
+  background: #f50100;
+  border: none;
+  box-shadow: none;
+}
+
+.message {
+  text-align: center;
+  margin-top: 1rem;
+  color: #4f4f4f;
+  margin-bottom: 2px;
+}
+
+.createAccount {
+  width: 467px;
+  border-radius: 5px;
+  background: #e0e0e0;
+  border: none;
+  color: #4f4f4f;
+}
+
+.createAccount:hover {
+  background: #e0e0e0;
+  border: none;
+  color: #4f4f4f;
+}
+
+.createAccount:focus {
+  background: #e0e0e0;
+  border: none;
+  color: #4f4f4f;
+
+  box-shadow: none;
+}
+
+.imageBg img {
+  width: 100%;
+  object-fit: cover;
+}
