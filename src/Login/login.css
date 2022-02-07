@@ -6,6 +6,11 @@
   font-family: "SF Pro Display";
 }
 
+.main {
+  font-family: "SF Pro Display";
+  opacity: 0.5;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -36,6 +41,15 @@
   box-shadow: none;
   font-size: 14px;
   padding: 10px;
+}
+
+.passwordVisibility {
+  position: relative;
+  left: 439px;
+  bottom: 35px;
+}
+.validPass {
+  margin-top: -20px;
 }
 
 .forgot-password {
@@ -93,4 +107,12 @@
 .imageBg img {
   width: 100%;
   object-fit: cover;
+  margin-left: 10px;
+  border-radius: 0;
+}
+
+.spinner {
+  position: relative;
+  top: 200px;
+  left: 160px;
 }
